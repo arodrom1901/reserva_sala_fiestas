@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1067048795867",
+    "project_id": "sala-fiestas",
+    "storage_bucket": "sala-fiestas.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067048795867:android:f3a4f4b280567365d596fe",
+        "android_client_info": {
+          "package_name": "com.example.reserva_sala_fiestas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoQ61xgO22Vmucly-QJoPxEOeDb9TUy64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
