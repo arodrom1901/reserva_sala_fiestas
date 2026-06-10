@@ -4,7 +4,7 @@ import "../models/evento_model.dart";
 
 class ApiService {
   // aquí pondremos la url de nuestra api, en este caso una url de mockapi.io con datos de ejemplo
-  final String _url = "https://6a1703791b90031f81b1e417.mockapi.io/:endpoint";
+  final String _url = "https://6a1703791b90031f81b1e417.mockapi.io/eventos";
 
   Future<List<Evento>> obtenerEventos() async {
     try {

@@ -20,6 +20,13 @@ class CartProvider with ChangeNotifier {
     notifyListeners();
   }
 
+  //metodo para eliminar un evento específico del carrito
+  void eliminarEvento(Evento evento) {
+    _items.remove(evento);
+    // avisamos a la pantalla para que refresque la lista
+    notifyListeners();
+  }
+
   // calcula el total de la compra
   double get total => _items.fold(0, (suma, item) => suma + item.precio);
 }

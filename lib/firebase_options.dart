@@ -50,12 +50,12 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBKui9DTxoTg8vS4GFwCNOLhpTUz4gppv8',
-    appId: '1:1067048795867:web:251125d2ec8053ffd596fe',
-    messagingSenderId: '1067048795867',
-    projectId: 'sala-fiestas',
-    authDomain: 'sala-fiestas.firebaseapp.com',
-    storageBucket: 'sala-fiestas.firebasestorage.app',
+    apiKey: "AIzaSyBKui9DTxoTg8vS4GFwCNOLhpTUz4gppv8",
+    authDomain: "sala-fiestas.firebaseapp.com",
+    projectId: "sala-fiestas",
+    storageBucket: "sala-fiestas.firebasestorage.app",
+    messagingSenderId: "1067048795867",
+    appId: "1:1067048795867:web:251125d2ec8053ffd596fe",
   );
 
   static const FirebaseOptions android = FirebaseOptions(
