@@ -26,10 +26,6 @@ class SalaFiestasApp extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: "Salón de Fiestas Alejota",
-        // definimos un tema visual general
-        theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        ),
         // llamamos al componente que decide qué pantalla mostrar primero
         home: AuthWrapper(),
       ),
